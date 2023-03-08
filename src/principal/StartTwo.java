@@ -31,6 +31,9 @@ public class StartTwo {
         }
         else if(retorno.equalsIgnoreCase("SOBRE PESO")){
             System.out.println("Tienes sobrepeso");
+
+        
+        lectura.close();
         }
     }
 }

@@ -38,6 +38,8 @@ public class ChallengeOne {
     
         System.out.println(name + " " +  lastname + " Cual es tu Sexo");
         sexo=lectura.next();
+
+        lectura.close();
     }
 
     public void mostrarPersonal(){
@@ -77,5 +79,7 @@ public class ChallengeOne {
             System.out.println("Eres mayor de edad, tu edad es " + age);
         }
     }
+
+    
 }
 

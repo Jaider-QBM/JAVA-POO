@@ -18,6 +18,8 @@ public class Animal {
         System.out.println("Ingrese la edad del animal");
         age=lectura.nextInt();
 
+        lectura.close();
+
     }
 
     public void mostrarAnimal(){
