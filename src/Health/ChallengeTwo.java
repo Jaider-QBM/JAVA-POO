@@ -6,6 +6,13 @@ public class ChallengeTwo {
     public double weight, actualWeight;
     public double stature, statureD;
 
+    public ChallengeTwo(){}
+    public ChallengeTwo(String name, String lastname, double weight, double stature){
+        this.name=name;
+        this.lastname=lastname;
+        this.weight=weight;
+        this.stature=stature;
+    }
 
     public void pedirDatos(String n, String a, double p, double ap, double e, double ed){
         name =n;

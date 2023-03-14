@@ -24,7 +24,7 @@ public class StartTwo {
     
         String retorno=person.calcularLmc(weight, stature);
         if(retorno.equalsIgnoreCase("PESO BAJO")){
-            System.out.println("sU PESO ESTA MUY BAJO");
+            System.out.println("Su peso esta muy bajo");
         }
         else if(retorno.equalsIgnoreCase("PESO IDEAL")){
             System.out.println("El peso es ideal ");
