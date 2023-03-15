@@ -1,6 +1,8 @@
 package Health;
 
 public class ChallengeTwo {
+    public String typeDoc;
+    public int document;
     public String name;
     public String lastname, retorno;
     public double weight, actualWeight;
@@ -11,6 +13,52 @@ public class ChallengeTwo {
         this.name=name;
         this.lastname=lastname;
         this.weight=weight;
+        this.stature=stature;
+    }
+    public String getTypeDoc(){
+        return typeDoc;
+    }
+
+    public void setTypeDoc(String typeDoc){
+        this.typeDoc = typeDoc;
+    }
+
+    public int getDocument(){
+        return document;
+    }
+
+    public void setDocument(int document){
+        this.document=document;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name=name;
+    }
+
+    public String getLastName(){
+        return lastname;
+    }
+
+    public void setLastName( String lastname){
+        this.lastname=lastname;
+    }
+
+    public double getWeight(){
+        return weight;
+    }
+    public void setWeight(double weight){
+        this.stature=stature;
+    }
+
+    public double stature (){
+        return stature;
+    }
+
+    public void setStature(double stature){
         this.stature=stature;
     }
 
