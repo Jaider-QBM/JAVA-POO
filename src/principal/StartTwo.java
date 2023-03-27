@@ -3,7 +3,7 @@ package principal;
 import java.util.Scanner;
 import Health.ChallengeTwo;
 
-public class StartTwo {
+public class startTwo {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
         ChallengeTwo person= new ChallengeTwo();
